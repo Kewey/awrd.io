@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #03EDB0;
+    --color-text-muted: #bafeec;
+    --color-text-inverted: #020427;
+    --color-fill: #03EDB0;
+    --color-button-accent: #020427;
+    --color-button-accent-hover: #6BFDD7;
+    --color-button-muted: #ebfffa;
+  }
+  
+  .theme-dark {
+    --color-text-base: #fff;
+    --color-text-muted: #bafeec;
+    --color-text-inverted: #020427;
+    --color-fill: #020427;
+    --color-button-accent: #6BFDD7;
+    --color-button-accent-hover: #03edb0;
+    --color-button-muted: #ebfffa;
+  }
+}
